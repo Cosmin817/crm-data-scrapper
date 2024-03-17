@@ -12,9 +12,9 @@ import sys
 import time
 import threading
 
-CRM_KEYS_LIST = ['voyagerTopic', 'InfranetJitReader', 'VoyagerJitReader']  # My search is case sensitive, beware, insert just unique values
-crm_ops_login = 'http://crmsupport.office.orange.intra/CE/login.php'
-CREDENTIALS = {'username': 'crmops', 'password': 'crm_ops'}
+CRM_KEYS_LIST = ['CharlieTopic', 'BetaJitReader', 'AlphaJitReader']  # My search is case sensitive, beware, insert just unique values
+crm_ops_login = 'http://it.tango.com/CE/login.php'
+CREDENTIALS = {'username': 'tangoppps', 'password': 'tangopasswd'}
 CHROMIUM_BROWSER_LOCATION = '/usr/lib64/chromium-browser/chromium-browser'
 CHROMIUM_DRIVER_BINARY_LOCATION = '/usr/lib64/chromium-browser/chromedriver'
 WAIT_AFTER_LOGIN = 10  # seconds, for that stupid redirect
